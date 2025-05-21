@@ -15,7 +15,7 @@ El sistema permite registrar, planificar y hacer seguimiento al desarrollo de pr
 
    Relación: Pertenece a un proyecto. Puede estar asignada a uno o varios usuarios (tabla intermedia Asignacion_Tarea). Tiene comentarios.
 
-5. Asignacion_Tarea: id_asignacion (PK), id_tarea (FK), id_usuario (FK), rol_en_tarea (ej: ejecutor, revisor), fecha_asignacion
+5. Asignacion_Tarea: id_asignacion (PK), id_tarea (FK), id_usuario (FK), fecha_asignacion
 
 6. Comentario: id_comentario (PK), id_tarea (FK), id_usuario (FK), contenido, fecha_comentario
 
