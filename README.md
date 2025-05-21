@@ -20,5 +20,6 @@ El sistema permite registrar, planificar y hacer seguimiento al desarrollo de pr
 6. Comentario: id_comentario (PK), id_tarea (FK), id_usuario (FK), contenido, fecha_comentario
 
 Diagrama E/R
+![image](https://github.com/user-attachments/assets/da6f1dfe-22d0-4167-bc27-4e2cc63eb82b)
 
 
