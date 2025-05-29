@@ -20,11 +20,13 @@ El sistema permite registrar, planificar y hacer seguimiento al desarrollo de pr
 6. Comentario: id_comentario (PK), id_tarea (FK), id_usuario (FK), contenido, fecha_comentario
 
 Diagrama E/R
-![image](https://github.com/user-attachments/assets/da6f1dfe-22d0-4167-bc27-4e2cc63eb82b)
+![image](https://github.com/user-attachments/assets/a47225b4-5965-4603-a080-75938e6ce198)
 
-Diagrama Relacional - Modelo Logico
+Diagrama Relacional - Modelo Lógico
+![sistema_seguimiento_1](https://github.com/user-attachments/assets/9344a908-b960-4636-892e-901a09e83384)
 
-Diagrama Relacional - Modelo Fisico
+Nota: No se agregó la tabla prioridad debido a que el software solo acepta 10 tablas como máximo.
+Diagrama Relacional - Modelo Físico
 ![image](https://github.com/user-attachments/assets/8e9d9f76-4239-4a8c-a751-5a389be00248)
 
 
