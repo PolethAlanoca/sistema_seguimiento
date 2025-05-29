@@ -22,4 +22,8 @@ El sistema permite registrar, planificar y hacer seguimiento al desarrollo de pr
 Diagrama E/R
 ![image](https://github.com/user-attachments/assets/da6f1dfe-22d0-4167-bc27-4e2cc63eb82b)
 
+Diagrama Relacional
+![image](https://github.com/user-attachments/assets/8e9d9f76-4239-4a8c-a751-5a389be00248)
+
+
 
