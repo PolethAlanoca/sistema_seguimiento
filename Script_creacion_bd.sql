@@ -4,11 +4,6 @@ GO
 USE bd_sistema_seguimiento;
 GO
 
-CREATE TABLE [rol_global] (
-	[id] INT IDENTITY(1,1) PRIMARY KEY,
-	[rol] CHAR(50) NOT NULL,
-);
-
 CREATE TABLE [estado_proyecto] (
 	[id] INT IDENTITY(1,1) PRIMARY KEY,
 	[estado] CHAR(20) NOT NULL,
@@ -35,8 +30,7 @@ CREATE TABLE [usuario] (
 	[correo] VARCHAR(30) NOT NULL,
 	[contraseña] VARCHAR(max) NOT NULL,
 	[fecha_registro] DATETIME NOT NULL,
-	[id_rol_global] INT NOT NULL,
-	CONSTRAINT [usuario_rol_global] FOREIGN KEY ([id_rol_global]) REFERENCES [rol_global]([id]),
+	[rol_global] CHAR(50) NOT NULL,
 );
 
 CREATE TABLE [proyecto] (
@@ -92,9 +86,3 @@ CREATE TABLE [comentario] (
 	CONSTRAINT [comentario_tarea] FOREIGN KEY ([id_tarea]) REFERENCES [tarea]([id]),
 	CONSTRAINT [comentario_usuario] FOREIGN KEY ([id_usuario]) REFERENCES [usuario]([id]),
 );
-
-
-
-
-
-
