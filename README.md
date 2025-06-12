@@ -25,9 +25,5 @@ Diagrama E/R
 Diagrama Relacional - Modelo Lógico
 ![sistema_seguimiento_1](https://github.com/user-attachments/assets/9344a908-b960-4636-892e-901a09e83384)
 
-Nota: No se agregó la tabla prioridad debido a que el software solo acepta 10 tablas como máximo.
 Diagrama Relacional - Modelo Físico
-![image](https://github.com/user-attachments/assets/8e9d9f76-4239-4a8c-a751-5a389be00248)
-
-
-
+![image](https://github.com/user-attachments/assets/5bec9f1d-89d6-4eb7-9cd3-b35a8a20fb87)
